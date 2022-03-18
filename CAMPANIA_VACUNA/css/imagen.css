@@ -1,0 +1,35 @@
+
+.imag1{
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.imag2{
+    margin-top: 110px;
+    margin-left: 45px;
+}
+
+.imag3{
+    margin-top: 210px;
+    margin-left: 45px;
+}
+
+.logos{
+    width: 200px;
+    height: 80px;
+    opacity: 0.2;
+}
+
+.logos2{
+    width: 150px;
+    height: 40px;
+    opacity: 0.1;
+}
+
+.floatLogo{
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    margin-left: 150px;
+    margin-bottom: 200px;
+}

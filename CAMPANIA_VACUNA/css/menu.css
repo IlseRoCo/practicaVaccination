@@ -1,0 +1,122 @@
+
+.link {
+    text-decoration: none;
+    color: #6d7b93;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.headmenu{
+  /*margin: auto;*/
+  margin: auto;
+  width: 1300px;
+  height: 100px;
+  background-color: #ffffff;
+  background-size: cover;
+  opacity: 0.7;  
+}
+
+.tabMenu {
+  width: 850px;
+  height: 25px;
+  margin-top: 20px;
+  margin-left: 550px;
+}
+.thM {
+  width: 50px;
+  text-align: center;
+  color: #6d7b93;
+  font-size: 18px;
+  transition: background-position-x 0.9s linear;
+  /**/
+  text-decoration: none;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/* FOOTER */
+footer {
+  background-color: #eef3ff;
+  color: #6d7b93;
+  font-size: 16px;
+  
+}
+footer * {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  margin-left: 20px;
+}
+.row {
+  padding: 1em 1em;
+}
+.row.primary {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  align-items: stretch;
+}
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 15em;
+}
+.hf {
+  width: 100%;
+  text-align: left;
+  color: #1f3e72;
+  font-size: 1.4em;
+  white-space: nowrap;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+li:not(:first-child) {
+  margin-top: 0.8em;
+}
+ul li a {
+  color: #a7a7a7;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: #2a8ded;
+}
+.about p {
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+}
+
+.copyright {
+  padding: 0.3em 1em;
+  background-color: #eef3ff;
+}
+.footer-menu{
+  float: right;
+  margin-top: 10px;
+}
+
+.footer-menu a{
+  color: #cfd2d6;
+  padding: 6px;
+  text-decoration: none;
+}
+.footer-menu a:hover{
+  color: #27bcda;
+}
+
+.copyright p {
+  font-size: 0.9em;
+  text-align: right;
+}
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+}
+.p1{
+  font-size: 15px;
+}
